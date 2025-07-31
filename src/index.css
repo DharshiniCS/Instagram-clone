@@ -1,0 +1,52 @@
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.logo-txt{
+  width: 75px;
+}
+.bi{
+  margin-right: 10px;
+}
+.story{
+  width: 70px;
+  padding: 10px;
+}
+.dp{
+  height: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+ 
+}
+.post{
+  width: 300px;
+}
+
+.suggestion h6
+{
+  font-size: 16px;
+}
+
+.suggestion .dp{
+ margin-top: 0px !important;
+} 
+
+.gradient-border{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #ff6b6b, #f06595, #d4a5a5, #392f5a);
+}
+.story-dp{
+  width:40px ;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px ;
+
+}

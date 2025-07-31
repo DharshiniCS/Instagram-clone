@@ -1,0 +1,149 @@
+{
+  "posts": [
+    {
+      "id": "101",
+      "username": "dharshini_01",
+      "name": "Dharshini Priya",
+      "bio": "Frontend Developer 👩‍💻",
+      "profilePic": "src/assets/profile1.jpg",
+      "image": "src/assets/picture1.jpg",
+      "caption": "Beautiful sunset 🌇",
+      "likes": [
+        2,
+        3
+      ],
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow, amazing shot!"
+        },
+        {
+          "user": "bob_builder",
+          "comment": "So peaceful ❤️"
+        }
+      ],
+      "createdAt": "2025-07-15T14:20:00Z"
+    },
+    {
+      "id": "102",
+      "username": "john_doe",
+      "name": "John Doe",
+      "bio": "Photographer 📷",
+      "profilePic": "src/assets/profile2.jpg",
+      "image": "src/assets/picture2.jpg",
+      "caption": "My latest sketch 💖",
+      "likes": [
+        1,
+        2
+      ],
+      "comments": [
+        {
+          "user": "charlie_brown",
+          "comment": "Your art is beautiful 🎨"
+        },
+        {
+          "user": "dharshini_01",
+          "comment": "Love this sketch! 💖"
+        }
+      ],
+      "createdAt": "2025-07-14T10:00:00Z"
+    },
+    {
+      "id": "103",
+      "username": "sneha_art",
+      "name": "Sneha R",
+      "bio": "Artist & Designer 🎨",
+      "profilePic": "src/assets/profile3.jpg",
+      "image": "src/assets/picture3.jpg",
+      "caption": "Nature inspires me 🌿",
+      "likes": [
+        1
+      ],
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Love the vibe! 🌳"
+        }
+      ],
+      "createdAt": "2025-07-13T09:00:00Z"
+    }
+  ],
+  "profile": {
+    "username": "dharshini_01",
+    "name": "Dharshini Priya",
+    "bio": "Frontend Developer 👩‍💻",
+    "profilePic": "src/assets/profile1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "alice_wonder",
+      "name": "Alice Wonder",
+      "profilePic": "src/assets/profile2.jpg"
+    },
+    {
+      "id": "102",
+      "username": "bob_builder",
+      "name": "Bob Builder",
+      "profilePic": "src/assets/profile3.jpg"
+    },
+    {
+      "id": "103",
+      "username": "charlie_brown",
+      "name": "Charlie Brown",
+      "profilePic": "src/assets/profile1.jpg"
+    },
+    {
+      "id": "104",
+      "username": "sneha_art",
+      "name": "Sneha R",
+      "profilePic": "src/assets/profile2.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "username": "dharshini_01",
+      "name": "Dharshini Priya",
+      "bio": "Frontend Developer 👩‍💻",
+      "profilePic": "src/assets/profile1.jpg",
+      "image": "/s1.jpg",
+      "caption": "Beautiful sunset 🌇",
+      "createdAt": "2025-07-15T14:20:00Z"
+    },
+    {
+      "id": "2",
+      "username": "john_doe",
+      "name": "John Doe",
+      "bio": "Photographer 📷",
+      "profilePic": "src/assets/profile2.jpg",
+      "image": "/s2.jpg",
+      "createdAt": "2025-07-14T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "username": "sneha_art",
+      "name": "Sneha R",
+      "bio": "Artist & Designer 🎨",
+      "profilePic": "src/assets/profile3.jpg",
+      "image": "/s3.jpg",
+      "createdAt": "2025-07-13T09:00:00Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": "103",
+      "username": "charlie_brown",
+      "name": "Charlie Brown",
+      "profilePic": "src/assets/profile1.jpg"
+    },
+    {
+      "id": "101",
+      "username": "alice_wonder"
+    },
+    {
+      "id": "104",
+      "username": "sneha_art"
+    }
+  ]
+}
